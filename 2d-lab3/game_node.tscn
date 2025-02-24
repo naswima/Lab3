@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://5g1gsnmcl515"]
+
+[ext_resource type="Script" path="res://gamescript.gd" id="1_5a7w1"]
+[ext_resource type="Texture2D" uid="uid://nf2hh75rr1hb" path="res://lab3.png" id="2_ce2jx"]
+
+[node name="GameNode" type="Node2D"]
+script = ExtResource("1_5a7w1")
+metadata/_edit_group_ = true
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(1172, 641)
+
+[node name="Node2D" type="Node2D" parent="Icon"]
+position = Vector2(32, -6)
+
+[node name="Lab3" type="Sprite2D" parent="."]
+position = Vector2(498, 455)
+texture = ExtResource("2_ce2jx")
